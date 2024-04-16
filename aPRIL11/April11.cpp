@@ -25,7 +25,7 @@ int main()
 {
 
     string someString = "2345678";
-    cout << "How to replace a SINGLE character?\n";
+    //cout << "How to replace a SINGLE character?\n";
     //someString.replace(3, 2, "a"); //234a78?
 
    cout << someString.substr(3, 2) << endl; //substring is similar to math word: subset
